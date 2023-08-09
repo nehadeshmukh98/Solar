@@ -1,0 +1,422 @@
+
+
+.navbar ul li {
+    display: inline;
+    justify-content: space-evenly;
+    /* padding: 54px 23px ; */
+    font-size: 23px;
+    list-style: none;
+    left: 600px;
+    margin: 20px;
+    top: 40px;
+    position: relative;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure ;
+}
+
+
+.logo{
+    height: 80px;
+    width: 90px;
+    margin:20px;
+    /* border: 2px solid black; */
+}
+
+*{
+    /* height: 100vh; */
+    width: 45vh;
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+position: relative;
+height: 1000px;
+width: 800px;
+background-color: linear-gradient(rgba(0,0,0,0.5),#f46d4b),url('../componant/images/pexels-los-muertos-crew-8853536.jpg');
+margin-top: -70px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    /* justify-content: space-between; */
+}
+
+.header{
+    width: 477%;
+    height: 100vh;
+    background-image:linear-gradient( rgba(120,190,190,0.5433),rgba(121,121,110,0.654)), url(../componant/images/pexels-los-muertos-crew-8853536.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.subhead{
+    position: relative;
+    top: 290px;
+    left: 60px;
+    text-align: center;
+}
+
+#head1{
+    font-family: Kaushan Script,cursive;
+    font-size: 40px
+}
+
+.subhead p{
+    font-size: 20px;
+    color: azure;
+}
+
+.btn{
+    
+    border: 1px solid white;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    position: relative;
+    font-size: 18px;
+    top: 370px;
+    right: 290px;
+    background: transparent;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn1 a:hover{
+    color: black
+}
+.btn1{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.btn{
+    /* display: block; */
+}
+.btn:hover{
+    background-color: rgb(220, 238, 238);
+    transition-duration: 1s;
+    border: 2px solid teal;
+    border-radius: 5px;
+}
+
+.btn h1 {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 770px) {
+    .header h1 {
+        font-size:44px
+    }
+
+    .header a {
+        display: block;
+        margin: 20px auto
+    }
+
+    .logo {
+        left: 5%
+    }
+}
+/* ----------Feature------------ */
+.Feature-head{
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.Feature-head p{
+    color: #0e032e;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    left: 550px;
+
+}
+
+.Feature-head h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left: 550px;
+}
+
+
+.Feature{
+    height: 110vh;
+}
+
+.Feature-box{
+    /* border: 1px solid; */
+    height: 600px ;
+    width: 400%;
+    margin-left: 90px;
+    display: flex;
+    /* padding: 20px; */
+
+    /* align-items: center; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
+    /* text-align: center; */
+    /* width: 80% */
+}
+
+.Feature-box h1{
+    color: teal;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text1{
+    position: relative;
+    left: 90px;
+    top: 60px;
+    margin: 30px;
+    padding: 20px;
+}
+.Feature-box  p{
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+
+#img1{
+    position: relative;
+    left: 400px;
+    height: 550px;
+    top: 10px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* ----------Services------------------ */
+
+#services{
+    /* top: 200px; */
+    height: 150vh;
+    background-color: aliceblue;
+    width: 478%;
+}
+
+#serv{
+    position: relative;
+    top: 30px;
+    left: 70px;
+    
+}
+
+.service-box{
+    /* display: flex; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 80%
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+    /* margin: 30px; */
+}
+
+.serv-imgae{
+    border-radius:  10px;
+    flex-basis: 48%;
+    color: #fff;
+    /* height: 700px; */
+    /* width: 400px; */
+    margin-bottom: 20px;
+    position: relative;
+    /* padding: 70px 80px; */
+    text-align: center;
+    /* flex-basis: 20px; */
+}
+
+.overlay,.serv-imgae img{
+    border-radius: 7px;
+    width: 100%;
+}
+
+.overlay{
+    background: linear-gradient(rgba(0,0,0,.5),#f46d4b);
+    cursor: pointer;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: 1s
+}
+
+.serv-imgae:hover .overlay{
+    opacity: 1;
+}
+
+.service-desc{
+    bottom: 0;
+    left: 70%;
+    opacity: 0;
+    position: absolute;
+    -webkit-transform: translateX(-70%);
+    transform: translateX(-70%);
+    transition: 1s;
+    width: 80%
+    
+}
+
+hr{
+    background: #fff;
+    border: 0;
+    height: 2px;
+    margin: 10px auto;
+    width: 70%;
+}
+
+.service-desc p{
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.service-desc h3{
+    margin-left: 70px;
+
+}
+
+.serv-imgae:hover .service-desc{
+    bottom: 40%;
+    opacity: 1;
+}
+
+/* ----------Testimonial-------------------- */
+
+#test{
+    height: 50vh;
+}
+
+.testmonial-row{
+    display: flex;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    flex-basis: 30px;
+    /* background-color: antiquewhite; */
+    /* margin-left: 170px; */
+    /* position: relative; */
+    /* padding: 50px; */
+}
+
+.testmonial-col{
+    padding: 50px;
+    box-shadow: black;
+    border-radius: 5px;
+    flex-basis: 28%;
+    position: relative;
+    cursor: pointer;
+    left: 200px;
+    color: #0e032e;
+    margin-top: 5px;
+}
+
+.testmonial-col:hover{
+ transform: translateY(7px);
+}
+
+
+.testmonial-col p{
+    font-size: 14px;
+}
+.user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 7px;
+}
+
+.user{
+    align-items: center;
+    display: flex;
+}
+
+.userinfo{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.userinfo small{
+    color: #009688;
+}
+
+.userinfo small:hover{
+    color: #c9d9d8;
+}
+
+/* ------------Footer-------- */
+
+.footer-row{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    width: 80%;
+    padding: 20px;
+    margin-left: 450px;
+}
+
+
+
+#footer{
+    height: 150vh;
+    margin-top: 30px;
+}
+
+.footer-row ,.footer-right{
+    flex-basis:45% ;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* margin: 30px; */
+    /* margin: 20px; */
+}
+.footer-left{
+    /* text-align: left; */
+    /* margin-right: -150px; */
+}
+.footer-right{
+    text-align: right;
+    margin-left: 100px;
+    /* padding: 40px; */
+}
+
+.footer-row h1{
+    margin: 10px 0;
+}
+
+.footer-row p{
+    line-height: 35px;
+}
+.footer-img{
+    position: absolute;
+    left :50%;
+    max-width: 370px;
+    height: 300px;
+    opacity: .3;
+    top: 460%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+
+}
+/* .fas,.footer-left .far,.footer-right .far {
+    color: #009688;
+    font-size: 20px;
+    margin: 8px
+} */
